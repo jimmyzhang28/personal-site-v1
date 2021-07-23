@@ -55,6 +55,42 @@ const Seo = ({ title, description, image }) => {
       )}
 
       {seo.image && <meta name="twitter:image" content={seo.image} />}
+
+      <script type="application/ld+json">
+      {`
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Jimmy Zhang",
+          "jobTitle": "Student",
+          "url": "https://jimmyzhangcs.com/",
+          "sameAs": [
+            "https://github.com/jimmyzhang28",
+            "https://linkedin.com/in/jimmyzhang28",
+            "https://instagram.com/jzhang7528"
+          ],
+          "gender": "male",
+          "birthDate": "2001-12-28",
+          "image": "${seo.image}"
+        }
+      `}
+      </script>
+
+      <script type="application/ld+json">
+        {`
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://jimmyzhangcs.com/",
+            "name": "Jimmy Zhang",
+            "image": "${seo.image}",
+            "author": {
+              "@type": "Person",
+              "name": "Jimmy Zhang"
+            }
+          }
+        `}
+      </script>
     </Helmet>
   )
 }

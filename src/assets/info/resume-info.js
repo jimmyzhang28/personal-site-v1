@@ -74,9 +74,9 @@ const experiences = {
     },
     {
       title: "This Website!",
-      description: "A fun project purely in React, HTML, and CSS. Enjoy the product!",
+      description: "A fun project made with the React-based GatsbyJS framework that taught me more about HTML, CSS, and SEO strategies. Enjoy the product!",
       tech: [
-        "React", "HTML", "CSS"
+        "Gatsby", "React", "HTML", "CSS"
       ],
       githubLink: "https://github.com/jimmyzhang28/personal-site",
     },
