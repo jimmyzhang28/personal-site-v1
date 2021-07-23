@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Jimmy Zhang",
-    titleTemplate: "%s | Student",
+    titleTemplate: "%s",
     description: "Computer science student at CMU. Eager to learn more about software, AI, and computing.",
     url: "https://www.jimmyzhangcs.com",
     image: "/og_image.jpg",
