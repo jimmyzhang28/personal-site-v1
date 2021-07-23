@@ -47,10 +47,17 @@ const StyledProject = styled.div`
   grid-gap: 10px;
   grid-template-columns: repeat(12, 1fr);
   align-items: center;
-  margin: 1rem;
 
-  @media (max-width: 768px) {
-    margin: 3rem 1rem;
+  &:not(:last-of-type) {
+    margin-bottom: 100px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 70px;
+    }
+
+    @media (max-width: 480px) {
+      margin-bottom: 30px;
+    }
   }
 
   .content {
@@ -67,6 +74,7 @@ const StyledProject = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: center;
+      height: 100%;
       grid-column: 1 / -1;
       padding: 40px 40px 30px;
       margin: 0;
@@ -175,7 +183,7 @@ const StyledProject = styled.div`
 
       @media (max-width: 768px) {
         object-fit: cover;
-        height: 100%;
+        height: 500px;
         filter: grayscale(100%) contrast(1) brightness(60%);
       }
     }
