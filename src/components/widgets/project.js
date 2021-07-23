@@ -50,7 +50,7 @@ const StyledProject = styled.div`
   margin: 1rem;
 
   @media (max-width: 768px) {
-    margin: 2rem 1rem;
+    margin: 3rem 1rem;
   }
 
   .content {
