@@ -78,7 +78,7 @@ const experiences = {
       tech: [
         "React", "HTML", "CSS"
       ],
-      githubLink: "https://github.com/jimmyzhang28/portfolio-site",
+      githubLink: "https://github.com/jimmyzhang28/personal-site",
     },
   ]
 };

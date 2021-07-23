@@ -33,6 +33,7 @@ const StyledHamburger = styled.button`
     transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
       stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .line1,
   .line3 {
     stroke-dasharray: ${props => (props.isOpen ? '90 207' : '60 207')};
@@ -44,6 +45,7 @@ const StyledHamburger = styled.button`
       `
     };
   }
+  
   .line2 {
     stroke-dasharray: ${props => (props.isOpen ? '1 60' : '60 60')};
     stroke-width: 6;

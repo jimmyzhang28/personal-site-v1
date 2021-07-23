@@ -26,22 +26,22 @@ const Navbar = () => {
       </div>
       <StyledNavLinks isOpen={open}>
         <li className="nav-item">
-          <Link to="about" className="nav-link" spy={true} smooth={true} offset={50} duration={500} onClick={() => setOpen(false)} tabIndex={open ? 1 : -1}>
+          <Link to="about" className="nav-link" spy={true} smooth={true} duration={500} onClick={() => setOpen(false)} tabIndex={open ? 1 : -1}>
             About
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="experience" className="nav-link" spy={true} smooth={true} offset={50} duration={500} onClick={() => setOpen(false)} tabIndex={open ? 2 : -1}>
+          <Link to="experience" className="nav-link" spy={true} smooth={true} duration={500} onClick={() => setOpen(false)} tabIndex={open ? 2 : -1}>
             Experience
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="projects" className="nav-link" spy={true} smooth={true} offset={50} duration={500} onClick={() => setOpen(false)} tabIndex={open ? 3 : -1}>
+          <Link to="projects" className="nav-link" spy={true} smooth={true} duration={500} onClick={() => setOpen(false)} tabIndex={open ? 3 : -1}>
             Projects
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="contact" className="nav-link" spy={true} smooth={true} offset={50} duration={500} onClick={() => setOpen(false)} tabIndex={open ? 4 : -1}>
+          <Link to="contact" className="nav-link" spy={true} smooth={true} duration={500} onClick={() => setOpen(false)} tabIndex={open ? 4 : -1}>
             Contact
           </Link>
         </li>

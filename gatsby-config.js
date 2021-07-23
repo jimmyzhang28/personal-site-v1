@@ -3,7 +3,7 @@ module.exports = {
     title: "Jimmy Zhang",
     titleTemplate: "%s | Student",
     description: "Computer science student at CMU. Eager to learn more about software, AI, and computing.",
-    url: "https://localhost:8000",
+    url: "http://www.jimmyzhangcs.com",
     image: "/og_image.png",
     twitterUsername: "@jzhang7528"
   },

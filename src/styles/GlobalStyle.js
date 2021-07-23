@@ -93,7 +93,7 @@ const GlobalStyle = createGlobalStyle`
 
   section {
     margin: 0 auto;
-    padding: 125px 0;
+    padding: 100px 0;
     max-width: 1000px;
   }
 
