@@ -4,7 +4,7 @@ module.exports = {
     titleTemplate: "%s | Student",
     description: "Computer science student at CMU. Eager to learn more about software, AI, and computing.",
     url: "https://www.jimmyzhangcs.com",
-    image: "/og_image.png",
+    image: "/og_image.jpg",
     twitterUsername: "@jzhang7528"
   },
   plugins: [
