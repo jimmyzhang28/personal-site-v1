@@ -17,7 +17,7 @@ const experiences = {
       bulletPoints: [
         "Implemented a dynamic calendar page in React that helps users schedule meetings and reminders with their contacts",
         "Integrated robust integration testing and error handling with Cypress and Sentry",
-        "Managed quality assurance bugs and updates in an agile scrum environment",
+        "Managed quality assurance bugs and updates in a fast-paced Agile environment",
         "Collaborated with UI/UX designers to create and implement new prototypes for the dashboard website"
       ],
       tech: [
