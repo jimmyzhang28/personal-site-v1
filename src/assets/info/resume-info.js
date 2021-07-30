@@ -43,10 +43,10 @@ const experiences = {
       range: "Feb 2021 - Apr 2021",
       role: "Web Development Intern",
       bulletPoints: [
-        "Implementing responsive, mobile-first mini web applications with HTML, CSS, and JS libraries",
-        "Integrating technologies such as Webflow, AWS, and server-side JS into frontend development",
-        "Developing a custom eCommerce case study website with the Shopify Liquid templating language",
-        "Collaborating with marketing department to incorporate SEO and increase client traffic by 500%"
+        "Implemented responsive, mobile-first mini web applications with HTML, CSS, and JS libraries",
+        "Integrated technologies such as Webflow, AWS, and server-side JS into frontend development",
+        "Developed a custom eCommerce case study website with the Shopify Liquid templating language",
+        "Collaborated with marketing department to incorporate SEO and increase client traffic by 500%"
       ],
       tech: [
         "HTML", "CSS", "JS", "Shopify Liquid"
