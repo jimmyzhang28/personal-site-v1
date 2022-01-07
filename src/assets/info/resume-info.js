@@ -5,9 +5,9 @@ const experiences = {
     "21-241: Matrices and Linear Transformations (F20)",
     "15-150: Principles of Functional Programming (S21)",
     "15-251: Great Theoretical Ideas in CS (S21)",
-    "15-252: More Great Theoretical Ideas in CS (S21)",
     "21-259: Calculus in Three Dimensions (S21)",
-    "07-180: Concepts of Artificial Intelligence (S21)"
+    "15-281: Artificial Intelligence (F21)",
+    "15-213: Introduction to Computer Systems (F21)"
   ],
   experienceInfo: [
     {

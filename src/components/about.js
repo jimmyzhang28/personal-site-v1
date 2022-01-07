@@ -32,7 +32,7 @@ const About = () => {
         </div>
         <div className="misc">
           <div className="info">
-            I'll also be a Teaching Assistant (TA) for 15-151 for the Fall 2021 semester. I'll be
+            I'll also be a Teaching Assistant (TA) for 15-150 for the Spring 2022 semester. I'll be
             <ul className="info-list">
               <li>leading recitations for 20+ students</li>
               <li>holding weekly office hours to offer extra help</li>
