@@ -1,13 +1,17 @@
+import grapevine from '../images/grapevine.png';
+import boo from '../images/boo.png';
+import responsival from '../images/responsival.png';
+
 const experiences = {
   classes: [
     "15-151: Mathematical Foundations for CS (F20)",
     "15-122: Principles of Imperative Computation (F20)",
-    "21-241: Matrices and Linear Transformations (F20)",
     "15-150: Principles of Functional Programming (S21)",
     "15-251: Great Theoretical Ideas in CS (S21)",
-    "21-259: Calculus in Three Dimensions (S21)",
     "15-281: Artificial Intelligence (F21)",
-    "15-213: Introduction to Computer Systems (F21)"
+    "15-213: Introduction to Computer Systems (F21)",
+    "15-210: Parallel and Sequential Algorithms (S22)",
+    "15-259: Probability and Computing (S22)"
   ],
   experienceInfo: [
     {
@@ -22,8 +26,10 @@ const experiences = {
       ],
       tech: [
         "React", "Cypress", "Sentry", "CouchDB"
-      ]
-    },
+      ],
+      logo: grapevine
+    }
+    ,
     {
       company: "Boo",
       range: "May 2021 - Aug 2021",
@@ -36,7 +42,8 @@ const experiences = {
       ],
       tech: [
         "Node.js", "MongoDB", "Express", "Flutter"
-      ]
+      ],
+      logo: boo
     },
     {
       company: "Responsival",
@@ -50,8 +57,9 @@ const experiences = {
       ],
       tech: [
         "HTML", "CSS", "JS", "Shopify Liquid"
-      ]
-    },
+      ],
+      logo: responsival
+    }
   ],
   projectInfo: [
     {

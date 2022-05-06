@@ -16,8 +16,8 @@ const About = () => {
     <StyledAboutSection id="about">
       <div className="title">About Me</div>
       <p className="description">
-        Hi, I’m Jimmy! I’m a rising sophomore at <span>Carnegie Mellon University</span> majoring in computer science with possible minors in human-computer interaction, 
-        machine learning, and/or business administration.
+        Hi, I'm Jimmy! I'm a rising sophomore at <span>Carnegie Mellon University</span> majoring in computer science with planned minors in 
+        machine learning and business administration.
       </p>
       <div className="row-grid">
         <div className="classes">
@@ -32,7 +32,7 @@ const About = () => {
         </div>
         <div className="misc">
           <div className="info">
-            I'll also be a Teaching Assistant (TA) for 15-150 for the Spring 2022 semester. I'll be
+            I've also been a Teaching Assistant (TA) for 15-150 (S22) and 15-151 (F21). I am actively
             <ul className="info-list">
               <li>leading recitations for 20+ students</li>
               <li>holding weekly office hours to offer extra help</li>
@@ -46,9 +46,9 @@ const About = () => {
               <a href="https://www.nba.com/rockets/" aria-label="basketball" target="_blank" rel="noreferrer" className="interests-icon">
                 <BasketballIcon width={"45"} height={"45"}/>
               </a>
-              <a href="https://playvalorant.com/" aria-label="game" target="_blank" rel="noreferrer" className="interests-icon">
+              {/* <a href="https://playvalorant.com/" aria-label="game" target="_blank" rel="noreferrer" className="interests-icon">
                 <GameIcon width={"45"} height={"45"}/>
-              </a>
+              </a> */}
               <a href="https://www.chess.com/member/jchess7528" aria-label="chess" target="_blank" rel="noreferrer" className="interests-icon">
                 <img src={ChessIcon} alt=""/>
               </a>

@@ -3,17 +3,9 @@ import styled from 'styled-components';
 import { experiences } from '../assets/info/resume-info';
 import ExperienceCard from './widgets/experience-card';
 
-// add new logo per experience
-import grapevine from '../assets/images/grapevine.png';
-import boo from '../assets/images/boo.png';
-import responsival from '../assets/images/responsival.png';
-
 const Experience = () => {
 
   let data = experiences.experienceInfo;
-  data[0].logo = grapevine;
-  data[1].logo = boo;
-  data[2].logo = responsival;
 
   return (
     <StyledExperienceSection id="experience">
